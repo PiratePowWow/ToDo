@@ -38,7 +38,7 @@ public class ToDo {
                     if (item.isDone){
                         checkbox = "[x] ";
                     }
-                    System.out.println(checkbox + i + ". " + item.text);
+                    System.out.printf("%s %d. %s\n", checkbox, i, item.text);
                     i++;
                 }
                 System.out.println();
